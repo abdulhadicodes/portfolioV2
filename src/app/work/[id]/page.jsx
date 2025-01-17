@@ -53,7 +53,7 @@ export default function ProjectDetail() {
         <p className="text-white">{project.description}</p>
       </motion.div>
 
-      <div className="flex flex-col items-left">
+      <div className="flex flex-wrap items-left">
   <motion.div
     className="bg-[#04140b] rounded-lg p-6 mb-8 w-full "
     initial={{ opacity: 0, y: 20 }}
