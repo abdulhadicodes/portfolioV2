@@ -76,7 +76,7 @@ export default function TestimonialSection() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        With over 5 years of experience, we've helped 100+ clients achieve their goals.
+        With over 4 years of experience, we've helped 50+ clients achieve their goals.
       </motion.p>
       <motion.div 
         className="flex justify-center mt-4"
