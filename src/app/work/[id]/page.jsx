@@ -53,25 +53,29 @@ export default function ProjectDetail() {
         <p className="text-white">{project.description}</p>
       </motion.div>
 
-      <motion.div 
-        className="bg-[#04140b] rounded-lg p-6 mb-8"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.4 }}
-      >
-        <h2 className="text-2xl font-semibold mb-4 text-[#00ff66]">Technologies Used</h2>
-        <ul className="list-disc list-inside text-white">
-          {project.technologies.map((tech, index) => (
-            // <li key={index}>{tech}</li>
-            <span 
-                  key={index} 
-                  className="px-3 py-1 text-sm text-[#00FF66] bg-[#1C1C1C] border border-[#00FF66] rounded-full mr-2"
-                >
-                  {tech}
-                </span>
-          ))}
-        </ul>
-      </motion.div>
+      <div className="flex flex-col items-left">
+  <motion.div
+    className="bg-[#04140b] rounded-lg p-6 mb-8 w-full "
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5, delay: 0.4 }}
+  >
+    <h2 className="text-2xl font-semibold mb-4 text-[#00ff66] text-left">
+      Technologies Used
+    </h2>
+    <div className="flex flex-wrap gap-2 justify-left">
+      {project.technologies.map((tech, index) => (
+        <span
+          key={index}
+          className="px-3 py-1 text-sm text-[#00FF66] bg-[#1C1C1C] border border-[#00FF66] rounded-full"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+  </motion.div>
+</div>
+
 
       <motion.div 
         className="bg-[#04140b] rounded-lg p-6 mb-8"
