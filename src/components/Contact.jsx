@@ -83,7 +83,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="min-h-screen bg-[#001a0e] py-12 px-4 sm:px-6 lg:px-8 m-0">
+    <div className="min-h-screen bg-[#001a0e] ">
       <div>
         <div className="grid md:grid-cols-2 gap-8">
           {/* Form Section */}
