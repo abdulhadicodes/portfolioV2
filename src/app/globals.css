@@ -19,6 +19,8 @@ body {
   background: black;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
 /* 
 div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm){
   background-color:#0a2816;

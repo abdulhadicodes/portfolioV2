@@ -28,20 +28,8 @@ export default function Footer() {
               Your go-to place for amazing services
             </p>
           </div>
-
-          {/* Contact Info */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#00FF7F]">Contact</h3>
-            <div className="space-y-3 text-gray-300">
-              <a href="mailto:abdulhadi.76543@gmail.com" className="flex items-center gap-2 hover:text-[#00FF7F]">
-                abdulhadi.76543@gmail.com
-              </a>
-              <p className="flex items-center gap-2">Karachi, SD, Pakistan</p>
-            </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
+{/* Quick Links */}
+<div>
             <h3 className="text-lg font-semibold mb-4 text-[#00FF7F]">Quick Links</h3>
             <nav className="space-y-3">
               {footerItems.map((item) => (
@@ -55,13 +43,25 @@ export default function Footer() {
               ))}
             </nav>
           </div>
+          {/* Contact Info */}
+          {/* <div>
+            <h3 className="text-lg font-semibold mb-4 text-[#00FF7F]">Contact</h3>
+            <div className="space-y-3 text-gray-300">
+              <a href="mailto:abdulhadi.76543@gmail.com" className="flex items-center gap-2 hover:text-[#00FF7F]">
+                abdulhadi.76543@gmail.com
+              </a>
+              <p className="flex items-center gap-2">Karachi, SD, Pakistan</p>
+            </div>
+          </div> */}
+
+          
 
           
 
           {/* Social Links */}
-          <div>
+          <div className='pr-2'>
             <h3 className="text-lg font-semibold mb-4 text-[#00FF7F]">Follow Us</h3>
-            <div className="flex gap-4">
+            <div className="flex gap-3">
               {[
                 { href: "#", icon: Facebook, label: "Facebook" },
                 { href: "#", icon: Instagram, label: "Instagram" },

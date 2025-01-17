@@ -3,9 +3,9 @@ import heroImg from '../../public/image.jpg';
 
 function Hero() {
   return (
-    <header className="relative overflow-hidden h-[90vh]">
+    <header className="relative overflow-hidden h-[90vh] min-h-screen min-w-screen">
     <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat pb-10"
             style={{
               backgroundImage: `url(${heroImg.src})`, // Dynamically reference the imported image
               backgroundAttachment: 'fixed', // Enable fixed positioning
@@ -13,7 +13,7 @@ function Hero() {
             }}
           ></div>
       <div className="bg-opacity-65 inset-0 bg-black absolute"/>
-      <div className="relative mx-auto pb-10 p-x4 py-24 z-10 lg:p-20 mt-36 lg:ml-52 ml-7">
+      <div className="relative mx-auto pb-10 px-4 py-24 z-10 lg:p-20 mt-36 lg:ml-52 ml-7">
       <h1 className="text-6xl font-bold mb-6 animate-fade-in-up text-white">Transform your ideas into reality</h1>
         <p className="text-3xl mb-8 max-w-2xl animate-fade-in-up animation-delay-200 text-white">
         Transform your ideas into reality.
