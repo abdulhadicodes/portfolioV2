@@ -106,7 +106,7 @@ export default function ProjectDetail() {
                 className="rounded-lg mb-2"
               />
               <h3 className="text-white font-semibold mb-1">{feature.name}</h3>
-              <p className="text-gray-300 text-sm">{feature.description}</p>
+              <p className="text-gray-200 text-sm">{feature.description}</p>
             </div>
           ))}
         </div>
