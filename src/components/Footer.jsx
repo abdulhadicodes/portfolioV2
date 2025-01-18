@@ -63,9 +63,9 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-[#00FF7F]">Follow Us</h3>
             <div className="flex gap-3">
               {[
-                { href: "#", icon: Facebook, label: "Facebook" },
-                { href: "#", icon: Instagram, label: "Instagram" },
-                { href: "#", icon: Linkedin, label: "LinkedIn" },
+                { href: "https://facebook.com/theabdulhadi", icon: Facebook, label: "Facebook" },
+                { href: "https://instagram.com/abdulhadicodes", icon: Instagram, label: "Instagram" },
+                { href: "https://www.linkedin.com/in/-abdulhadi-", icon: Linkedin, label: "LinkedIn" },
               ].map(({ href, icon: Icon, label }) => (
                 <a
                   key={label}
