@@ -63,7 +63,7 @@ export default function ProjectDetail() {
     <h2 className="text-2xl font-semibold mb-4 text-[#00ff66] text-left">
       Technologies Used
     </h2>
-    <div className="flex flex-wrap gap-2 justify-left">
+    <div className="flex flex-wrap gap-1 justify-left">
       {project.technologies.map((tech, index) => (
         <span
           key={index}
